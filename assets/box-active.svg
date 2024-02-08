@@ -1,0 +1,24 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+        @keyframes move {
+            0% {
+                transform:rotateZ(-3deg);
+            }
+            50% {
+                transform:rotateZ(3deg);
+            }
+            100% {
+                transform:rotateZ(-3deg);
+            }
+        }
+       
+        .point-move {
+            transform: rotateZ(3deg);
+            animation: move 2s ease-in-out infinite;
+        }
+</style>
+<circle cx="60" cy="15" r="4.5" stroke-width="2px" stroke="#29FD53"/>
+<circle cx="105" cy="48" r="5" class="point-move" fill="#29FD53"/>
+<circle cx="15" cy="48" r="5" class="point-move" fill="#29FD53"/>
+<circle cx="60" cy="105" r="5" class="point-move" fill="#29FD53"/>
+</svg>

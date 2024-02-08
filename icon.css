@@ -1,0 +1,32 @@
+.ico{
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.35s ease-in-out;
+}
+
+.home-outline{
+    content: url("assets/home.svg");
+}
+
+.profil-outline{
+    content: url("assets/profil.svg");
+}
+
+.message-outline{
+    content: url("assets/message.svg");
+}
+
+.settings-outline{
+    content: url("assets/setting.svg");
+}
+
+.camera-outline{
+    content: url("assets/camera.svg");
+}
